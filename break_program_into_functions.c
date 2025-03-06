@@ -7,8 +7,15 @@
 }
 */
 
-
+/*
 int addition(int a, int b)
 {
     return a + b;
+}
+*/
+
+
+void bonjour()
+{
+    printf("Bonjour");
 }

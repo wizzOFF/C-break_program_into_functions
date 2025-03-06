@@ -58,8 +58,11 @@ int main(int argc, char *argv[])
     printf("Entrez un nombre... ");
     scanf("%d", &nombreEntre);
     
-    nombreTriple = triple(nombreEntre);
-    printf("Le triple de ce nombre est %d\n", nombreTriple);
+    //nombreTriple = triple(nombreEntre);
+    //printf("Le triple de ce nombre est %d\n", nombreTriple);
+
+    // Le résultat de la fonction est directement envoyé au printf et n'est pas stocké dans une variable
+    printf("Le triple de ce nombre est %d\n", triple(nombreEntre));
     
     return 0;
 }
